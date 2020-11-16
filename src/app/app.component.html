@@ -179,17 +179,20 @@
   }
 
   .terminal::before {
-    content: "\2022 \2022 \2022";
+    content: "\2014 \2003 \2003 \25A0 \2003 \2003 \2573";
     position: absolute;
     top: 0;
     left: 0;
     height: 4px;
-    background: rgb(58, 58, 58);
-    color: #c2c3c4;
+    display: flex;
+    float: left;
+    background: rgb(124, 124, 124);
+    color: #ffffff;
     width: 100%;
-    font-size: 2rem;
+    font-size: 0.75rem;
     line-height: 0;
-    padding: 14px 0;
+    /* padding-left: 500px; */
+    padding: 14px;
     text-indent: 4px;
   }
 
